@@ -2,6 +2,18 @@ body, html{
   height: 100%;
 }
 
+.background111{
+  /*image used*/
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ3HB9Wc3n1finNypdjI4nYVuDpzOLtk0nTmg&usqp=CAU);
+  /*image height*/
+  height: 100%
+  /*Center and scale the image nicely*/
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
 .backgroundcolor002{
   /*image used */
   background-image: url(https://cdn.hipwallpaper.com/i/48/0/KUtfoS.jpg);
@@ -66,4 +78,8 @@ body, html{
 
 .fab{
   color: #050505;
+}
+a{
+  a:link;
+
 }
