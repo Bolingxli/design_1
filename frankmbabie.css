@@ -1,0 +1,69 @@
+body, html{
+  height: 100%;
+}
+
+.backgroundcolor002{
+  /*image used */
+  background-image: url(https://cdn.hipwallpaper.com/i/48/0/KUtfoS.jpg);
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 300px;
+
+}
+
+#heading_tag1{
+  font-family: Arial, Heveltica,sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#heading_tag2{
+  font-family: proxima-nova;
+  font-weight: 600;
+  font-size: 70px;
+  letter-spacing: normal;
+}
+
+.fab{
+  color: #050505;
+}
